@@ -63,16 +63,40 @@ nav a {
 
 .logo {
   display: flex;
-  width: 185px;
-  height: 45px;
+  position: relative;
+  align-items: center;
+}
+
+p {
+  display: block;
+  position: relative;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 20px;
 }
 
 .vector {
-  width: 45px;
-  height: 45px;
-  background: white;
+  display: flex;
+  position: absolute;
 }
 
-.logo-text p {
-  text-align: center;
+.right-vector {
+  display: block;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background-image: url(../img/Vector.svg);
+}
+
+.left-vector {
+  display: block;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  background-image: url(../img/Vector1.svg);
+  transform: scale(1);
 }
