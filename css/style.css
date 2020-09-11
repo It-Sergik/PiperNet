@@ -124,7 +124,7 @@ p {
   background: #eeeeee;
 }
 
-.problem h1 {
+h1 {
   margin: 0px;
   text-decoration: none;
   text-transform: none;
@@ -172,4 +172,90 @@ p {
   line-height: 56px;
   font-weight: 500;
   color: #ffffff;
+}
+
+.ppc {
+  display: block;
+  background: #ffffff;
+  padding: 48px 0;
+}
+
+.ppc__container {
+  display: block;
+  position: relative;
+  margin-top: 20px;
+}
+
+.ppc__container .ppc__logo {
+  display: flex;
+  position: relative;
+  width: 115px;
+  float: left;
+  margin-right: 48px;
+}
+
+.ppc__container > p {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.team {
+  display: block;
+  background: #eeeeee;
+  padding: 48px 0;
+  justify-content: center;
+}
+
+.team-container {
+  margin-top: 32px;
+  padding: 0.5vw;
+  font-size: 0;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-flow: row wrap;
+  display: flex;
+}
+
+.team-member-card {
+  position: relative;
+  flex: auto;
+  width: 350px;
+  margin: 0.5vw;
+  padding: 30px;
+  justify-content: center;
+}
+
+.team-member-card__image {
+  width: 168px;
+  margin-bottom: 15px;
+}
+
+.team-member-card > figure {
+  text-align: center;
+}
+
+.team-member-card > figure > figcaption {
+  text-decoration: none;
+  font-weight: 900;
+  font-style: normal;
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+}
+
+.team-member-card > figure > p {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
 }
